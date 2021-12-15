@@ -1,0 +1,258 @@
+body{
+    /* width: 100%; */
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* header */
+.page-index-header{
+    max-width: 1600px;
+    width: 100%;
+    height: 75px;
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-header-and-main-s2{
+    height: 100%;
+    max-width: 1140px;
+    display: flex;
+}
+
+.top-head-left-logo{
+    display: block;
+    width: 44px;
+    height: 38px;
+    padding-top: 18px;
+}
+
+.top-head-searching-img{
+    display: block;
+    width: 26px;
+    height: 27px;
+    margin-left: 41px;
+    padding-top: 28px;
+}
+
+.stripes-top-head-img{
+    display: block;
+    width: 32px;
+    height: 23px;
+    padding-top: 30px;
+    margin-left: 859px;
+}
+
+.user-icon{
+    display: block;
+    width: 29px;
+    height: 29px;
+    padding-top: 26px;
+    margin-left: 33px;
+}
+
+.basket-icon{
+    display: block;
+    width: 32px;
+    height: 29px;
+    padding-top: 26px;
+    margin-left: 33px;
+}
+
+.ellipse-for-basket{
+    display: block;
+    position: relative;
+    width: 19px;
+    height: 19px;
+    padding-top: 18px;
+    margin-left: -8px;
+}
+
+.number-in-basket-icon{
+    position: absolute;
+    font-family: Lato;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding-top: 21px;
+    margin-left: 1128px;
+}
+
+/* main */
+.page-index-main{
+    max-width: 1600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-block-index{
+    width: 100%;
+    min-height: 764px;
+    background-color: #F1E4E6;
+    display: flex;
+}
+
+.preview-index-adblock{
+    display: block;
+    width: 800.58px;
+    height: 764px;
+}
+
+.vert-red-line{
+    display: block;
+    height: 92px;
+    width: 12px;
+    padding-top: 290px;
+    margin-left: 64px;
+}
+
+.ad-text1-sect1{
+    /* display: block; */
+    padding-top: 232px;
+    margin-left: 16px;
+    font: Lato;
+    font-weight: 900;
+    font-size: 48px;
+    color: #222222;
+}
+
+.ad-text2-sect1{
+    font-weight: 700;
+    font-size: 37px;
+
+}
+.ad-text3-sect1{
+    size: 32px;
+    color: #F16D7F;
+}
+
+.section2-index-main{
+    flex-direction: column;
+}
+
+.top_block_section2{
+    width: 100%;
+    margin-top: 65px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link_to_page_women, 
+.link_to_page_man, 
+.link_to_page_kids{
+    position: relative;
+    display: inline-block;
+    min-width: 360px;
+    height: 260px;   
+}
+
+.link_to_page_women{
+    background-image: url(img/section2/for_women_image.png);
+}
+
+.link_to_page_man{
+    background-image: url(img/section2/for_man_image.png);
+}
+
+.link_to_page_kids{
+    background-image: url(img/section2/for_kids_image.png);
+}
+
+.photo_to_litt_link{
+    display: block;
+    width: 100%;
+    height: 100%;    
+}
+
+.link_to_page_women:hover .photo_to_litt_link{
+    opacity: 0;
+}
+
+.link_to_page_man:hover .photo_to_litt_link{
+    opacity: 0;
+}
+
+.link_to_page_kids:hover .photo_to_litt_link{
+    opacity: 0;
+}
+
+.sss{
+    
+}
+
+.white-rose-title-all{
+    position: absolute;
+    left: 107px;
+    top: 105px;
+    font: lato;
+    font-weight: 400px;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    line-height: 19px;
+}
+
+.for_men_correct{
+    left: 125px;
+}
+
+.white-rose-title{
+    font-size: 24px;
+    font-weight: 700px;
+    line-height: 28px;
+    color: #F16D7F;
+}
+
+.top_block_bottom_long{
+    height: 180px;
+    width: 100%;
+    margin-bottom: 96px;
+    position: relative;
+    display: inline-block;
+    background-image: url(img/section2/for_accesories_long_image.png);
+}
+
+.photo_to_long_link{
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+.top_block_bottom_long:hover .photo_to_long_link{
+    opacity: 0;
+}
+
+.top_block_bottom_long{
+    height: 180px;
+    width: 100%;
+    margin-bottom: 96px;
+    position: relative;
+    display: inline-block;
+    background-image: url(img/section2/for_accesories_long_image.png);
+}
+
+.for-long-correct{
+    left: 488px;
+    top: 68px;
+}
+
+.photo_to_long_link{
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+.top_block_bottom_long:hover .photo_to_long_link{
+    opacity: 0;
